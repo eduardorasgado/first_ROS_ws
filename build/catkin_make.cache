@@ -1,2 +1,2 @@
-abb_irb1600id_support:beginner_tutorials
+abb_irb1600id_support:beginner_tutorials:fake_ar_publisher:myworkcell_core
 -DCATKIN_DEVEL_PREFIX=/home/canix/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/canix/catkin_ws/install -G Unix Makefiles

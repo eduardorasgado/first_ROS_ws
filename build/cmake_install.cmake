@@ -118,6 +118,8 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/canix/catkin_ws/build/gtest/cmake_install.cmake")
   include("/home/canix/catkin_ws/build/beginner_tutorials/cmake_install.cmake")
+  include("/home/canix/catkin_ws/build/fake_ar_publisher/cmake_install.cmake")
+  include("/home/canix/catkin_ws/build/myworkcell_core/cmake_install.cmake")
   include("/home/canix/catkin_ws/build/abb_irb1600id_support/cmake_install.cmake")
 
 endif()
