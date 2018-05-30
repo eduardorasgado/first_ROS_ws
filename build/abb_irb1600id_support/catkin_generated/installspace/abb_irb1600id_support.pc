@@ -1,0 +1,8 @@
+prefix=/home/canix/catkin_ws/install
+
+Name: abb_irb1600id_support
+Description: Description of abb_irb1600id_support
+Version: 1.1.4
+Cflags: 
+Libs: -L/home/canix/catkin_ws/install/lib 
+Requires: 
