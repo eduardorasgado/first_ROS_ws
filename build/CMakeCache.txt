@@ -276,6 +276,9 @@ cpp_common_DIR:PATH=/opt/ros/kinetic/share/cpp_common/cmake
 //Value Computed by CMake
 fake_ar_publisher_BINARY_DIR:STATIC=/home/canix/catkin_ws/build/fake_ar_publisher
 
+//The directory containing a CMake configuration file for fake_ar_publisher.
+fake_ar_publisher_DIR:PATH=/home/canix/catkin_ws/devel/share/fake_ar_publisher/cmake
+
 //Value Computed by CMake
 fake_ar_publisher_SOURCE_DIR:STATIC=/home/canix/catkin_ws/src/fake_ar_publisher
 
@@ -348,6 +351,12 @@ message_generation_DIR:PATH=/opt/ros/kinetic/share/message_generation/cmake
 
 //The directory containing a CMake configuration file for message_runtime.
 message_runtime_DIR:PATH=/opt/ros/kinetic/share/message_runtime/cmake
+
+//Value Computed by CMake
+moveit_abb_mobile1_BINARY_DIR:STATIC=/home/canix/catkin_ws/build/moveit_abb_mobile1
+
+//Value Computed by CMake
+moveit_abb_mobile1_SOURCE_DIR:STATIC=/home/canix/catkin_ws/src/moveit_abb_mobile1
 
 //Value Computed by CMake
 myworkcell_core_BINARY_DIR:STATIC=/home/canix/catkin_ws/build/myworkcell_core
@@ -490,7 +499,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=7
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=8
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

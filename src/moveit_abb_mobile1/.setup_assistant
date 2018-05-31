@@ -1,0 +1,10 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: abb_irb1600id_support
+    relative_path: urdf/irb1600id.urdf
+  SRDF:
+    relative_path: config/abb_irb1600id.srdf
+  CONFIG:
+    author_name: Eduardo Rasgado Ruiz
+    author_email: eduardo.rasgado@outlook.com
+    generated_timestamp: 1527707172

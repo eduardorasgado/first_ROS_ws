@@ -14,7 +14,7 @@ int main(int argc, char* argv[])
 	//logging method, print messg to terminal output
 	//and send it to he /rosout topic for other nodes to
 	//monitor
-	ROS_INFO("Hello, world");
+	ROS_INFO("Eduardo Rasgado Ruiz says: Hola ROS!");
 
 	//Dont exit the program
 	ros::spin();
