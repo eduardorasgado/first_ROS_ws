@@ -1,2 +1,2 @@
-fake_ar_publisher:myworkcell_core
--DCATKIN_DEVEL_PREFIX=/home/canix/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/canix/catkin_ws/install -DCATKIN_WHITELIST_PACKAGES=fake_ar_publisher;myworkcell_core -G Unix Makefiles
+beginner_tutorials
+-DCATKIN_DEVEL_PREFIX=/home/canix/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/canix/catkin_ws/install -DCATKIN_WHITELIST_PACKAGES=beginner_tutorials -G Unix Makefiles

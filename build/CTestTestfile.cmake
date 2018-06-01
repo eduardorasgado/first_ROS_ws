@@ -5,5 +5,4 @@
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.
 subdirs(gtest)
-subdirs(fake_ar_publisher)
-subdirs(myworkcell_core)
+subdirs(beginner_tutorials)
