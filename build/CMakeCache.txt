@@ -30,7 +30,7 @@ CATKIN_ENABLE_TESTING:BOOL=ON
 CATKIN_SKIP_TESTING:BOOL=OFF
 
 //List of ';' separated packages to build
-CATKIN_WHITELIST_PACKAGES:STRING=
+CATKIN_WHITELIST_PACKAGES:STRING=fake_ar_publisher;myworkcell_core
 
 //Path to a program.
 CMAKE_AR:FILEPATH=/usr/bin/ar
@@ -276,8 +276,7 @@ cpp_common_DIR:PATH=/opt/ros/kinetic/share/cpp_common/cmake
 //Value Computed by CMake
 fake_ar_publisher_BINARY_DIR:STATIC=/home/canix/catkin_ws/build/fake_ar_publisher
 
-//The directory containing a CMake configuration file for fake_ar_publisher.
-fake_ar_publisher_DIR:PATH=/home/canix/catkin_ws/devel/share/fake_ar_publisher/cmake
+fake_ar_publisher_DIR:PATH=
 
 //Value Computed by CMake
 fake_ar_publisher_SOURCE_DIR:STATIC=/home/canix/catkin_ws/src/fake_ar_publisher
@@ -351,6 +350,12 @@ message_generation_DIR:PATH=/opt/ros/kinetic/share/message_generation/cmake
 
 //The directory containing a CMake configuration file for message_runtime.
 message_runtime_DIR:PATH=/opt/ros/kinetic/share/message_runtime/cmake
+
+//Value Computed by CMake
+mi_paquete_BINARY_DIR:STATIC=/home/canix/catkin_ws/build/mi_paquete
+
+//Value Computed by CMake
+mi_paquete_SOURCE_DIR:STATIC=/home/canix/catkin_ws/src/mi_paquete
 
 //Value Computed by CMake
 moveit_abb_mobile1_BINARY_DIR:STATIC=/home/canix/catkin_ws/build/moveit_abb_mobile1
@@ -499,7 +504,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=8
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=5
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

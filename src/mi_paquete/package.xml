@@ -1,25 +1,25 @@
 <?xml version="1.0"?>
 <package format="2">
-  <name>beginner_tutorials</name>
+  <name>mi_paquete</name>
   <version>0.0.0</version>
-  <description>ESte es mi packete en ROS</description>
+  <description>The mi_paquete package</description>
 
   <!-- One maintainer tag required, multiple allowed, one person per tag -->
   <!-- Example:  -->
-  <!-- <maintainer email="eduardo.rasgado@hotmail.com">Eduardo Rasgado</maintainer> -->
-  <maintainer email="eduardo.rasgado@outlook.com">Eduardo Rasgado</maintainer>
+  <!-- <maintainer email="jane.doe@example.com">Jane Doe</maintainer> -->
+  <maintainer email="canix@todo.todo">canix</maintainer>
 
 
   <!-- One license tag required, multiple allowed, one license per tag -->
   <!-- Commonly used license strings: -->
   <!--   BSD, MIT, Boost Software License, GPLv2, GPLv3, LGPLv2.1, LGPLv3 -->
-  <license>MIT</license>
+  <license>TODO</license>
 
 
   <!-- Url tags are optional, but multiple are allowed, one per tag -->
   <!-- Optional attribute type can be: website, bugtracker, or repository -->
   <!-- Example: -->
-  <!-- <url type="website">http://wiki.ros.org/beginner_tutorials</url> -->
+  <!-- <url type="website">http://wiki.ros.org/mi_paquete</url> -->
 
 
   <!-- Author tags are optional, multiple are allowed, one per tag -->
