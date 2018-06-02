@@ -1,4 +1,6 @@
 <launch>
 	<node pkg="beginner_tutorials" name="nodo_emisor" type="nodo_emisor" respawn="true" output="screen"/>
 	<node pkg="beginner_tutorials" name="nodo_receptor" type="nodo_receptor" respawn="true" output="screen"/>
+	<node pkg="beginner_tutorials" name="nodo_servidor" type="nodo_servidor" respawn="true" output="screen"/>
+	<node pkg="beginner_tutorials" name="nodo_cliente" type="nodo_cliente" respawn="true" output="screen"/>
 </launch>
