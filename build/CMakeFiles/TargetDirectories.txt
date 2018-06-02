@@ -34,6 +34,8 @@
 /home/canix/catkin_ws/build/beginner_tutorials/CMakeFiles/edit_cache.dir
 /home/canix/catkin_ws/build/beginner_tutorials/CMakeFiles/install/local.dir
 /home/canix/catkin_ws/build/beginner_tutorials/CMakeFiles/install/strip.dir
+/home/canix/catkin_ws/build/beginner_tutorials/CMakeFiles/nodo_receptor.dir
+/home/canix/catkin_ws/build/beginner_tutorials/CMakeFiles/nodo_emisor.dir
 /home/canix/catkin_ws/build/beginner_tutorials/CMakeFiles/beginner_tutorials_genpy.dir
 /home/canix/catkin_ws/build/beginner_tutorials/CMakeFiles/beginner_tutorials_gennodejs.dir
 /home/canix/catkin_ws/build/beginner_tutorials/CMakeFiles/beginner_tutorials_genlisp.dir

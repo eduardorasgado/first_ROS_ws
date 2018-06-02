@@ -166,6 +166,36 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+beginner_tutorials/CMakeFiles/nodo_receptor.dir/rule:
+	cd /home/canix/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 beginner_tutorials/CMakeFiles/nodo_receptor.dir/rule
+.PHONY : beginner_tutorials/CMakeFiles/nodo_receptor.dir/rule
+
+# Convenience name for target.
+nodo_receptor: beginner_tutorials/CMakeFiles/nodo_receptor.dir/rule
+
+.PHONY : nodo_receptor
+
+# fast build rule for target.
+nodo_receptor/fast:
+	cd /home/canix/catkin_ws/build && $(MAKE) -f beginner_tutorials/CMakeFiles/nodo_receptor.dir/build.make beginner_tutorials/CMakeFiles/nodo_receptor.dir/build
+.PHONY : nodo_receptor/fast
+
+# Convenience name for target.
+beginner_tutorials/CMakeFiles/nodo_emisor.dir/rule:
+	cd /home/canix/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 beginner_tutorials/CMakeFiles/nodo_emisor.dir/rule
+.PHONY : beginner_tutorials/CMakeFiles/nodo_emisor.dir/rule
+
+# Convenience name for target.
+nodo_emisor: beginner_tutorials/CMakeFiles/nodo_emisor.dir/rule
+
+.PHONY : nodo_emisor
+
+# fast build rule for target.
+nodo_emisor/fast:
+	cd /home/canix/catkin_ws/build && $(MAKE) -f beginner_tutorials/CMakeFiles/nodo_emisor.dir/build.make beginner_tutorials/CMakeFiles/nodo_emisor.dir/build
+.PHONY : nodo_emisor/fast
+
+# Convenience name for target.
 beginner_tutorials/CMakeFiles/beginner_tutorials_genpy.dir/rule:
 	cd /home/canix/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 beginner_tutorials/CMakeFiles/beginner_tutorials_genpy.dir/rule
 .PHONY : beginner_tutorials/CMakeFiles/beginner_tutorials_genpy.dir/rule
@@ -570,6 +600,60 @@ beginner_tutorials_geneus/fast:
 	cd /home/canix/catkin_ws/build && $(MAKE) -f beginner_tutorials/CMakeFiles/beginner_tutorials_geneus.dir/build.make beginner_tutorials/CMakeFiles/beginner_tutorials_geneus.dir/build
 .PHONY : beginner_tutorials_geneus/fast
 
+src/nodo_emisor.o: src/nodo_emisor.cpp.o
+
+.PHONY : src/nodo_emisor.o
+
+# target to build an object file
+src/nodo_emisor.cpp.o:
+	cd /home/canix/catkin_ws/build && $(MAKE) -f beginner_tutorials/CMakeFiles/nodo_emisor.dir/build.make beginner_tutorials/CMakeFiles/nodo_emisor.dir/src/nodo_emisor.cpp.o
+.PHONY : src/nodo_emisor.cpp.o
+
+src/nodo_emisor.i: src/nodo_emisor.cpp.i
+
+.PHONY : src/nodo_emisor.i
+
+# target to preprocess a source file
+src/nodo_emisor.cpp.i:
+	cd /home/canix/catkin_ws/build && $(MAKE) -f beginner_tutorials/CMakeFiles/nodo_emisor.dir/build.make beginner_tutorials/CMakeFiles/nodo_emisor.dir/src/nodo_emisor.cpp.i
+.PHONY : src/nodo_emisor.cpp.i
+
+src/nodo_emisor.s: src/nodo_emisor.cpp.s
+
+.PHONY : src/nodo_emisor.s
+
+# target to generate assembly for a file
+src/nodo_emisor.cpp.s:
+	cd /home/canix/catkin_ws/build && $(MAKE) -f beginner_tutorials/CMakeFiles/nodo_emisor.dir/build.make beginner_tutorials/CMakeFiles/nodo_emisor.dir/src/nodo_emisor.cpp.s
+.PHONY : src/nodo_emisor.cpp.s
+
+src/nodo_receptor.o: src/nodo_receptor.cpp.o
+
+.PHONY : src/nodo_receptor.o
+
+# target to build an object file
+src/nodo_receptor.cpp.o:
+	cd /home/canix/catkin_ws/build && $(MAKE) -f beginner_tutorials/CMakeFiles/nodo_receptor.dir/build.make beginner_tutorials/CMakeFiles/nodo_receptor.dir/src/nodo_receptor.cpp.o
+.PHONY : src/nodo_receptor.cpp.o
+
+src/nodo_receptor.i: src/nodo_receptor.cpp.i
+
+.PHONY : src/nodo_receptor.i
+
+# target to preprocess a source file
+src/nodo_receptor.cpp.i:
+	cd /home/canix/catkin_ws/build && $(MAKE) -f beginner_tutorials/CMakeFiles/nodo_receptor.dir/build.make beginner_tutorials/CMakeFiles/nodo_receptor.dir/src/nodo_receptor.cpp.i
+.PHONY : src/nodo_receptor.cpp.i
+
+src/nodo_receptor.s: src/nodo_receptor.cpp.s
+
+.PHONY : src/nodo_receptor.s
+
+# target to generate assembly for a file
+src/nodo_receptor.cpp.s:
+	cd /home/canix/catkin_ws/build && $(MAKE) -f beginner_tutorials/CMakeFiles/nodo_receptor.dir/build.make beginner_tutorials/CMakeFiles/nodo_receptor.dir/src/nodo_receptor.cpp.s
+.PHONY : src/nodo_receptor.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -582,6 +666,8 @@ help:
 	@echo "... edit_cache"
 	@echo "... install/local"
 	@echo "... install/strip"
+	@echo "... nodo_receptor"
+	@echo "... nodo_emisor"
 	@echo "... beginner_tutorials_genpy"
 	@echo "... beginner_tutorials_gennodejs"
 	@echo "... beginner_tutorials_genlisp"
@@ -610,6 +696,12 @@ help:
 	@echo "... beginner_tutorials_generate_messages_lisp"
 	@echo "... test"
 	@echo "... beginner_tutorials_geneus"
+	@echo "... src/nodo_emisor.o"
+	@echo "... src/nodo_emisor.i"
+	@echo "... src/nodo_emisor.s"
+	@echo "... src/nodo_receptor.o"
+	@echo "... src/nodo_receptor.i"
+	@echo "... src/nodo_receptor.s"
 .PHONY : help
 
 

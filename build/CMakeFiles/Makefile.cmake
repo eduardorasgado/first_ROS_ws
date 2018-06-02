@@ -195,6 +195,8 @@ set(CMAKE_DEPEND_INFO_FILES
   "gtest/CMakeFiles/gmock_main.dir/DependInfo.cmake"
   "gtest/gtest/CMakeFiles/gtest.dir/DependInfo.cmake"
   "gtest/gtest/CMakeFiles/gtest_main.dir/DependInfo.cmake"
+  "beginner_tutorials/CMakeFiles/nodo_receptor.dir/DependInfo.cmake"
+  "beginner_tutorials/CMakeFiles/nodo_emisor.dir/DependInfo.cmake"
   "beginner_tutorials/CMakeFiles/beginner_tutorials_genpy.dir/DependInfo.cmake"
   "beginner_tutorials/CMakeFiles/beginner_tutorials_gennodejs.dir/DependInfo.cmake"
   "beginner_tutorials/CMakeFiles/beginner_tutorials_genlisp.dir/DependInfo.cmake"

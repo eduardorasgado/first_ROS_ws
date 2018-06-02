@@ -7,7 +7,7 @@ del tipo beginner_tutorials/mensajeTest
 int main(int argc, char **argv){
 	ros::init(argc,argv, "nodo_emisor"); //registra el nombre del nodo
 
-	ros::nodeHandle nodo; //Creamos un objeto nodo
+	ros::NodeHandle nodo; //Creamos un objeto nodo
 	//imprimimos en /stdout un mensaje
 	ROS_INFO("nodo emisor creado y registrado");
 
@@ -15,7 +15,7 @@ int main(int argc, char **argv){
 	//como lo hemos llamado(topic).
 	//En este caso es de tipo userInfo y el topic se llama
 	//use_info_topic
-	ros::Publisher publicadorMensajes = nodo.advertise<beginner_tutoriales::mensajeTest>("mensajeTest_topic", 0);
+	ros::Publisher publicadorMensajes = nodo.advertise<beginner_tutorials::mensajeTest>("mensajeTest_topic",0);
 
 	//tiempo a dormir en cada iteracion
 	ros::Duration seconds_sleep(1);

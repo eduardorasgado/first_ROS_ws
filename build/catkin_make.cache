@@ -1,2 +1,2 @@
-beginner_tutorials
--DCATKIN_DEVEL_PREFIX=/home/canix/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/canix/catkin_ws/install -DCATKIN_WHITELIST_PACKAGES=beginner_tutorials -G Unix Makefiles
+abb_irb1600id_support:beginner_tutorials:fake_ar_publisher:mi_paquete:moveit_abb_mobile1:myworkcell_core
+-DCATKIN_DEVEL_PREFIX=/home/canix/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/canix/catkin_ws/install -G Unix Makefiles
