@@ -1,0 +1,21 @@
+#maquina de estados
+import time
+
+def a():
+    print "a()"
+    return b
+
+def b():
+    print "b()"
+    return c
+
+def c():
+    print "c()"
+    return a
+
+
+if __name__ == "__main__":
+    state = a
+    while True:
+        state = state()
+        time.sleep(1)
