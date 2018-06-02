@@ -34,11 +34,13 @@
 /home/canix/catkin_ws/build/beginner_tutorials/CMakeFiles/edit_cache.dir
 /home/canix/catkin_ws/build/beginner_tutorials/CMakeFiles/install/local.dir
 /home/canix/catkin_ws/build/beginner_tutorials/CMakeFiles/install/strip.dir
+/home/canix/catkin_ws/build/beginner_tutorials/CMakeFiles/nodo_servidor.dir
 /home/canix/catkin_ws/build/beginner_tutorials/CMakeFiles/nodo_receptor.dir
 /home/canix/catkin_ws/build/beginner_tutorials/CMakeFiles/nodo_emisor.dir
 /home/canix/catkin_ws/build/beginner_tutorials/CMakeFiles/beginner_tutorials_genpy.dir
 /home/canix/catkin_ws/build/beginner_tutorials/CMakeFiles/beginner_tutorials_gennodejs.dir
 /home/canix/catkin_ws/build/beginner_tutorials/CMakeFiles/beginner_tutorials_genlisp.dir
+/home/canix/catkin_ws/build/beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_lisp.dir
 /home/canix/catkin_ws/build/beginner_tutorials/CMakeFiles/std_msgs_generate_messages_py.dir
 /home/canix/catkin_ws/build/beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_py.dir
 /home/canix/catkin_ws/build/beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages.dir
@@ -58,9 +60,10 @@
 /home/canix/catkin_ws/build/beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_nodejs.dir
 /home/canix/catkin_ws/build/beginner_tutorials/CMakeFiles/std_msgs_generate_messages_lisp.dir
 /home/canix/catkin_ws/build/beginner_tutorials/CMakeFiles/_beginner_tutorials_generate_messages_check_deps_mensajeTest.dir
+/home/canix/catkin_ws/build/beginner_tutorials/CMakeFiles/_beginner_tutorials_generate_messages_check_deps_tipo_servicio.dir
 /home/canix/catkin_ws/build/beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_cpp.dir
+/home/canix/catkin_ws/build/beginner_tutorials/CMakeFiles/nodo_cliente.dir
 /home/canix/catkin_ws/build/beginner_tutorials/CMakeFiles/beginner_tutorials_gencpp.dir
 /home/canix/catkin_ws/build/beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_eus.dir
-/home/canix/catkin_ws/build/beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_lisp.dir
 /home/canix/catkin_ws/build/beginner_tutorials/CMakeFiles/test.dir
 /home/canix/catkin_ws/build/beginner_tutorials/CMakeFiles/beginner_tutorials_geneus.dir

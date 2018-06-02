@@ -166,6 +166,21 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+beginner_tutorials/CMakeFiles/nodo_servidor.dir/rule:
+	cd /home/canix/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 beginner_tutorials/CMakeFiles/nodo_servidor.dir/rule
+.PHONY : beginner_tutorials/CMakeFiles/nodo_servidor.dir/rule
+
+# Convenience name for target.
+nodo_servidor: beginner_tutorials/CMakeFiles/nodo_servidor.dir/rule
+
+.PHONY : nodo_servidor
+
+# fast build rule for target.
+nodo_servidor/fast:
+	cd /home/canix/catkin_ws/build && $(MAKE) -f beginner_tutorials/CMakeFiles/nodo_servidor.dir/build.make beginner_tutorials/CMakeFiles/nodo_servidor.dir/build
+.PHONY : nodo_servidor/fast
+
+# Convenience name for target.
 beginner_tutorials/CMakeFiles/nodo_receptor.dir/rule:
 	cd /home/canix/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 beginner_tutorials/CMakeFiles/nodo_receptor.dir/rule
 .PHONY : beginner_tutorials/CMakeFiles/nodo_receptor.dir/rule
@@ -239,6 +254,21 @@ beginner_tutorials_genlisp: beginner_tutorials/CMakeFiles/beginner_tutorials_gen
 beginner_tutorials_genlisp/fast:
 	cd /home/canix/catkin_ws/build && $(MAKE) -f beginner_tutorials/CMakeFiles/beginner_tutorials_genlisp.dir/build.make beginner_tutorials/CMakeFiles/beginner_tutorials_genlisp.dir/build
 .PHONY : beginner_tutorials_genlisp/fast
+
+# Convenience name for target.
+beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_lisp.dir/rule:
+	cd /home/canix/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_lisp.dir/rule
+.PHONY : beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+beginner_tutorials_generate_messages_lisp: beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_lisp.dir/rule
+
+.PHONY : beginner_tutorials_generate_messages_lisp
+
+# fast build rule for target.
+beginner_tutorials_generate_messages_lisp/fast:
+	cd /home/canix/catkin_ws/build && $(MAKE) -f beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_lisp.dir/build.make beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_lisp.dir/build
+.PHONY : beginner_tutorials_generate_messages_lisp/fast
 
 # Convenience name for target.
 beginner_tutorials/CMakeFiles/std_msgs_generate_messages_py.dir/rule:
@@ -526,6 +556,21 @@ _beginner_tutorials_generate_messages_check_deps_mensajeTest/fast:
 .PHONY : _beginner_tutorials_generate_messages_check_deps_mensajeTest/fast
 
 # Convenience name for target.
+beginner_tutorials/CMakeFiles/_beginner_tutorials_generate_messages_check_deps_tipo_servicio.dir/rule:
+	cd /home/canix/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 beginner_tutorials/CMakeFiles/_beginner_tutorials_generate_messages_check_deps_tipo_servicio.dir/rule
+.PHONY : beginner_tutorials/CMakeFiles/_beginner_tutorials_generate_messages_check_deps_tipo_servicio.dir/rule
+
+# Convenience name for target.
+_beginner_tutorials_generate_messages_check_deps_tipo_servicio: beginner_tutorials/CMakeFiles/_beginner_tutorials_generate_messages_check_deps_tipo_servicio.dir/rule
+
+.PHONY : _beginner_tutorials_generate_messages_check_deps_tipo_servicio
+
+# fast build rule for target.
+_beginner_tutorials_generate_messages_check_deps_tipo_servicio/fast:
+	cd /home/canix/catkin_ws/build && $(MAKE) -f beginner_tutorials/CMakeFiles/_beginner_tutorials_generate_messages_check_deps_tipo_servicio.dir/build.make beginner_tutorials/CMakeFiles/_beginner_tutorials_generate_messages_check_deps_tipo_servicio.dir/build
+.PHONY : _beginner_tutorials_generate_messages_check_deps_tipo_servicio/fast
+
+# Convenience name for target.
 beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_cpp.dir/rule:
 	cd /home/canix/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_cpp.dir/rule
 .PHONY : beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_cpp.dir/rule
@@ -539,6 +584,21 @@ beginner_tutorials_generate_messages_cpp: beginner_tutorials/CMakeFiles/beginner
 beginner_tutorials_generate_messages_cpp/fast:
 	cd /home/canix/catkin_ws/build && $(MAKE) -f beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_cpp.dir/build.make beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_cpp.dir/build
 .PHONY : beginner_tutorials_generate_messages_cpp/fast
+
+# Convenience name for target.
+beginner_tutorials/CMakeFiles/nodo_cliente.dir/rule:
+	cd /home/canix/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 beginner_tutorials/CMakeFiles/nodo_cliente.dir/rule
+.PHONY : beginner_tutorials/CMakeFiles/nodo_cliente.dir/rule
+
+# Convenience name for target.
+nodo_cliente: beginner_tutorials/CMakeFiles/nodo_cliente.dir/rule
+
+.PHONY : nodo_cliente
+
+# fast build rule for target.
+nodo_cliente/fast:
+	cd /home/canix/catkin_ws/build && $(MAKE) -f beginner_tutorials/CMakeFiles/nodo_cliente.dir/build.make beginner_tutorials/CMakeFiles/nodo_cliente.dir/build
+.PHONY : nodo_cliente/fast
 
 # Convenience name for target.
 beginner_tutorials/CMakeFiles/beginner_tutorials_gencpp.dir/rule:
@@ -571,21 +631,6 @@ beginner_tutorials_generate_messages_eus/fast:
 .PHONY : beginner_tutorials_generate_messages_eus/fast
 
 # Convenience name for target.
-beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_lisp.dir/rule:
-	cd /home/canix/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_lisp.dir/rule
-.PHONY : beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-beginner_tutorials_generate_messages_lisp: beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_lisp.dir/rule
-
-.PHONY : beginner_tutorials_generate_messages_lisp
-
-# fast build rule for target.
-beginner_tutorials_generate_messages_lisp/fast:
-	cd /home/canix/catkin_ws/build && $(MAKE) -f beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_lisp.dir/build.make beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_lisp.dir/build
-.PHONY : beginner_tutorials_generate_messages_lisp/fast
-
-# Convenience name for target.
 beginner_tutorials/CMakeFiles/beginner_tutorials_geneus.dir/rule:
 	cd /home/canix/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 beginner_tutorials/CMakeFiles/beginner_tutorials_geneus.dir/rule
 .PHONY : beginner_tutorials/CMakeFiles/beginner_tutorials_geneus.dir/rule
@@ -599,6 +644,33 @@ beginner_tutorials_geneus: beginner_tutorials/CMakeFiles/beginner_tutorials_gene
 beginner_tutorials_geneus/fast:
 	cd /home/canix/catkin_ws/build && $(MAKE) -f beginner_tutorials/CMakeFiles/beginner_tutorials_geneus.dir/build.make beginner_tutorials/CMakeFiles/beginner_tutorials_geneus.dir/build
 .PHONY : beginner_tutorials_geneus/fast
+
+src/nodo_cliente.o: src/nodo_cliente.cpp.o
+
+.PHONY : src/nodo_cliente.o
+
+# target to build an object file
+src/nodo_cliente.cpp.o:
+	cd /home/canix/catkin_ws/build && $(MAKE) -f beginner_tutorials/CMakeFiles/nodo_cliente.dir/build.make beginner_tutorials/CMakeFiles/nodo_cliente.dir/src/nodo_cliente.cpp.o
+.PHONY : src/nodo_cliente.cpp.o
+
+src/nodo_cliente.i: src/nodo_cliente.cpp.i
+
+.PHONY : src/nodo_cliente.i
+
+# target to preprocess a source file
+src/nodo_cliente.cpp.i:
+	cd /home/canix/catkin_ws/build && $(MAKE) -f beginner_tutorials/CMakeFiles/nodo_cliente.dir/build.make beginner_tutorials/CMakeFiles/nodo_cliente.dir/src/nodo_cliente.cpp.i
+.PHONY : src/nodo_cliente.cpp.i
+
+src/nodo_cliente.s: src/nodo_cliente.cpp.s
+
+.PHONY : src/nodo_cliente.s
+
+# target to generate assembly for a file
+src/nodo_cliente.cpp.s:
+	cd /home/canix/catkin_ws/build && $(MAKE) -f beginner_tutorials/CMakeFiles/nodo_cliente.dir/build.make beginner_tutorials/CMakeFiles/nodo_cliente.dir/src/nodo_cliente.cpp.s
+.PHONY : src/nodo_cliente.cpp.s
 
 src/nodo_emisor.o: src/nodo_emisor.cpp.o
 
@@ -654,6 +726,33 @@ src/nodo_receptor.cpp.s:
 	cd /home/canix/catkin_ws/build && $(MAKE) -f beginner_tutorials/CMakeFiles/nodo_receptor.dir/build.make beginner_tutorials/CMakeFiles/nodo_receptor.dir/src/nodo_receptor.cpp.s
 .PHONY : src/nodo_receptor.cpp.s
 
+src/nodo_servidor.o: src/nodo_servidor.cpp.o
+
+.PHONY : src/nodo_servidor.o
+
+# target to build an object file
+src/nodo_servidor.cpp.o:
+	cd /home/canix/catkin_ws/build && $(MAKE) -f beginner_tutorials/CMakeFiles/nodo_servidor.dir/build.make beginner_tutorials/CMakeFiles/nodo_servidor.dir/src/nodo_servidor.cpp.o
+.PHONY : src/nodo_servidor.cpp.o
+
+src/nodo_servidor.i: src/nodo_servidor.cpp.i
+
+.PHONY : src/nodo_servidor.i
+
+# target to preprocess a source file
+src/nodo_servidor.cpp.i:
+	cd /home/canix/catkin_ws/build && $(MAKE) -f beginner_tutorials/CMakeFiles/nodo_servidor.dir/build.make beginner_tutorials/CMakeFiles/nodo_servidor.dir/src/nodo_servidor.cpp.i
+.PHONY : src/nodo_servidor.cpp.i
+
+src/nodo_servidor.s: src/nodo_servidor.cpp.s
+
+.PHONY : src/nodo_servidor.s
+
+# target to generate assembly for a file
+src/nodo_servidor.cpp.s:
+	cd /home/canix/catkin_ws/build && $(MAKE) -f beginner_tutorials/CMakeFiles/nodo_servidor.dir/build.make beginner_tutorials/CMakeFiles/nodo_servidor.dir/src/nodo_servidor.cpp.s
+.PHONY : src/nodo_servidor.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -666,11 +765,13 @@ help:
 	@echo "... edit_cache"
 	@echo "... install/local"
 	@echo "... install/strip"
+	@echo "... nodo_servidor"
 	@echo "... nodo_receptor"
 	@echo "... nodo_emisor"
 	@echo "... beginner_tutorials_genpy"
 	@echo "... beginner_tutorials_gennodejs"
 	@echo "... beginner_tutorials_genlisp"
+	@echo "... beginner_tutorials_generate_messages_lisp"
 	@echo "... std_msgs_generate_messages_py"
 	@echo "... beginner_tutorials_generate_messages_py"
 	@echo "... beginner_tutorials_generate_messages"
@@ -690,18 +791,25 @@ help:
 	@echo "... beginner_tutorials_generate_messages_nodejs"
 	@echo "... std_msgs_generate_messages_lisp"
 	@echo "... _beginner_tutorials_generate_messages_check_deps_mensajeTest"
+	@echo "... _beginner_tutorials_generate_messages_check_deps_tipo_servicio"
 	@echo "... beginner_tutorials_generate_messages_cpp"
+	@echo "... nodo_cliente"
 	@echo "... beginner_tutorials_gencpp"
 	@echo "... beginner_tutorials_generate_messages_eus"
-	@echo "... beginner_tutorials_generate_messages_lisp"
 	@echo "... test"
 	@echo "... beginner_tutorials_geneus"
+	@echo "... src/nodo_cliente.o"
+	@echo "... src/nodo_cliente.i"
+	@echo "... src/nodo_cliente.s"
 	@echo "... src/nodo_emisor.o"
 	@echo "... src/nodo_emisor.i"
 	@echo "... src/nodo_emisor.s"
 	@echo "... src/nodo_receptor.o"
 	@echo "... src/nodo_receptor.i"
 	@echo "... src/nodo_receptor.s"
+	@echo "... src/nodo_servidor.o"
+	@echo "... src/nodo_servidor.i"
+	@echo "... src/nodo_servidor.s"
 .PHONY : help
 
 

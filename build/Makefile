@@ -283,6 +283,19 @@ gtest_main/fast:
 .PHONY : gtest_main/fast
 
 #=============================================================================
+# Target rules for targets named nodo_servidor
+
+# Build rule for target.
+nodo_servidor: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 nodo_servidor
+.PHONY : nodo_servidor
+
+# fast build rule for target.
+nodo_servidor/fast:
+	$(MAKE) -f beginner_tutorials/CMakeFiles/nodo_servidor.dir/build.make beginner_tutorials/CMakeFiles/nodo_servidor.dir/build
+.PHONY : nodo_servidor/fast
+
+#=============================================================================
 # Target rules for targets named nodo_receptor
 
 # Build rule for target.
@@ -346,6 +359,19 @@ beginner_tutorials_genlisp: cmake_check_build_system
 beginner_tutorials_genlisp/fast:
 	$(MAKE) -f beginner_tutorials/CMakeFiles/beginner_tutorials_genlisp.dir/build.make beginner_tutorials/CMakeFiles/beginner_tutorials_genlisp.dir/build
 .PHONY : beginner_tutorials_genlisp/fast
+
+#=============================================================================
+# Target rules for targets named beginner_tutorials_generate_messages_lisp
+
+# Build rule for target.
+beginner_tutorials_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 beginner_tutorials_generate_messages_lisp
+.PHONY : beginner_tutorials_generate_messages_lisp
+
+# fast build rule for target.
+beginner_tutorials_generate_messages_lisp/fast:
+	$(MAKE) -f beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_lisp.dir/build.make beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_lisp.dir/build
+.PHONY : beginner_tutorials_generate_messages_lisp/fast
 
 #=============================================================================
 # Target rules for targets named std_msgs_generate_messages_py
@@ -595,6 +621,19 @@ _beginner_tutorials_generate_messages_check_deps_mensajeTest/fast:
 .PHONY : _beginner_tutorials_generate_messages_check_deps_mensajeTest/fast
 
 #=============================================================================
+# Target rules for targets named _beginner_tutorials_generate_messages_check_deps_tipo_servicio
+
+# Build rule for target.
+_beginner_tutorials_generate_messages_check_deps_tipo_servicio: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _beginner_tutorials_generate_messages_check_deps_tipo_servicio
+.PHONY : _beginner_tutorials_generate_messages_check_deps_tipo_servicio
+
+# fast build rule for target.
+_beginner_tutorials_generate_messages_check_deps_tipo_servicio/fast:
+	$(MAKE) -f beginner_tutorials/CMakeFiles/_beginner_tutorials_generate_messages_check_deps_tipo_servicio.dir/build.make beginner_tutorials/CMakeFiles/_beginner_tutorials_generate_messages_check_deps_tipo_servicio.dir/build
+.PHONY : _beginner_tutorials_generate_messages_check_deps_tipo_servicio/fast
+
+#=============================================================================
 # Target rules for targets named beginner_tutorials_generate_messages_cpp
 
 # Build rule for target.
@@ -606,6 +645,19 @@ beginner_tutorials_generate_messages_cpp: cmake_check_build_system
 beginner_tutorials_generate_messages_cpp/fast:
 	$(MAKE) -f beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_cpp.dir/build.make beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_cpp.dir/build
 .PHONY : beginner_tutorials_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named nodo_cliente
+
+# Build rule for target.
+nodo_cliente: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 nodo_cliente
+.PHONY : nodo_cliente
+
+# fast build rule for target.
+nodo_cliente/fast:
+	$(MAKE) -f beginner_tutorials/CMakeFiles/nodo_cliente.dir/build.make beginner_tutorials/CMakeFiles/nodo_cliente.dir/build
+.PHONY : nodo_cliente/fast
 
 #=============================================================================
 # Target rules for targets named beginner_tutorials_gencpp
@@ -632,19 +684,6 @@ beginner_tutorials_generate_messages_eus: cmake_check_build_system
 beginner_tutorials_generate_messages_eus/fast:
 	$(MAKE) -f beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_eus.dir/build.make beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_eus.dir/build
 .PHONY : beginner_tutorials_generate_messages_eus/fast
-
-#=============================================================================
-# Target rules for targets named beginner_tutorials_generate_messages_lisp
-
-# Build rule for target.
-beginner_tutorials_generate_messages_lisp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 beginner_tutorials_generate_messages_lisp
-.PHONY : beginner_tutorials_generate_messages_lisp
-
-# fast build rule for target.
-beginner_tutorials_generate_messages_lisp/fast:
-	$(MAKE) -f beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_lisp.dir/build.make beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_lisp.dir/build
-.PHONY : beginner_tutorials_generate_messages_lisp/fast
 
 #=============================================================================
 # Target rules for targets named beginner_tutorials_geneus
@@ -681,11 +720,13 @@ help:
 	@echo "... gmock_main"
 	@echo "... gtest"
 	@echo "... gtest_main"
+	@echo "... nodo_servidor"
 	@echo "... nodo_receptor"
 	@echo "... nodo_emisor"
 	@echo "... beginner_tutorials_genpy"
 	@echo "... beginner_tutorials_gennodejs"
 	@echo "... beginner_tutorials_genlisp"
+	@echo "... beginner_tutorials_generate_messages_lisp"
 	@echo "... std_msgs_generate_messages_py"
 	@echo "... beginner_tutorials_generate_messages_py"
 	@echo "... beginner_tutorials_generate_messages"
@@ -705,10 +746,11 @@ help:
 	@echo "... beginner_tutorials_generate_messages_nodejs"
 	@echo "... std_msgs_generate_messages_lisp"
 	@echo "... _beginner_tutorials_generate_messages_check_deps_mensajeTest"
+	@echo "... _beginner_tutorials_generate_messages_check_deps_tipo_servicio"
 	@echo "... beginner_tutorials_generate_messages_cpp"
+	@echo "... nodo_cliente"
 	@echo "... beginner_tutorials_gencpp"
 	@echo "... beginner_tutorials_generate_messages_eus"
-	@echo "... beginner_tutorials_generate_messages_lisp"
 	@echo "... beginner_tutorials_geneus"
 .PHONY : help
 
