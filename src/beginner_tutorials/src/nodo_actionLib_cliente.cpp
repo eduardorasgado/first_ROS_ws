@@ -5,7 +5,26 @@ con ello le decimos que se trata de una accion
 #include <beginner_tutorials/TestAction.h>
 #include <actionlib/client/simple_action_client>
 
-typedef actionlib::SimpleActionClinet<beginner_tutorials::TestAction> Client;
+typedef actionlib::SimpleActionClient<beginner_tutorials::TestAction> Client;
 
+int main(int argc, char **argv){
+	ros::init(argc, argv, "nodo_ActionLib_cliente");
+	Client client("testALService", true);
+	client.waitForService();
 
+	//creamos un goal para endviarselo
+	beginner_tutorials::TestGoal goal;
+	client.sendGoal(goal);
+	client.waitForResult(ros::Duration(5.0));
 
+	if (client.getState() == actionlib::SimpleClientGoalState::SUCCEEDED)
+	{
+		ROS_INFO("Completado!");
+	}
+
+	ROS_INFO("Estado: %s\n", client.getState().toString().c_str());
+
+	//no hace falta hacer un spin porque al crear el cliente el segundo 
+	//parametro es tru
+	return 0;
+}
