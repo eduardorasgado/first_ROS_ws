@@ -134,6 +134,8 @@ include_directories(
  add_executable(nodo_receptor src/nodo_receptor.cpp)
  add_executable(nodo_servidor src/nodo_servidor.cpp)
  add_Executable(nodo_cliente src/nodo_cliente.cpp)
+ add_executable(nodo_actionLib_servidor src/nodo_actionLib_servidor.cpp)
+ add_executable(nodo_actionLib_cliente src/nodo_actionLib_cliente)
 # add_executable(nodo_actionLib_cliente src/nodo_actionLib_client.cpp)
 # add_executable(nodo_actionLib_servidor src/nodo_actionLib_server.cpp)
 # add_executable(nodo_escribe_SP src/nodo_escribe_SP.cpp)
@@ -179,6 +181,14 @@ include_directories(
   ${catkin_LIBRARIES}
  )
  target_link_libraries (nodo_cliente
+  ${catkin_LIBRARIES}
+ )
+
+ target_link_libraries (nodo_actionLib_servidor
+  ${catkin_LIBRARIES}
+ )
+
+ target_link_libraries (nodo_actionLib_cliente
   ${catkin_LIBRARIES}
  )
 
