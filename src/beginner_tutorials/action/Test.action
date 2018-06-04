@@ -1,5 +1,8 @@
+#entrada
 int32 goal
 ---
+#salida
 int32 result
 ---
+#retroalimentacion intermediaria, no es obligatoria
 int32 feedback
