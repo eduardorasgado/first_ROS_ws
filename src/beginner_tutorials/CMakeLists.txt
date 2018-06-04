@@ -12,6 +12,8 @@ find_package(catkin REQUIRED COMPONENTS
   rospy
   std_msgs
   message_generation
+  actionlib
+  actionlib_msgs
 )
 
 ## System dependencies are found with CMake's conventions
@@ -60,16 +62,16 @@ find_package(catkin REQUIRED COMPONENTS
  )
 
 ## Generate actions in the 'action' folder
-#add_action_files(
-#   FILES
-#   Test.action
-#)
+ add_action_files(
+    FILES
+    Test.action
+ )
 
 ## Generate added messages and services with any dependencies listed here
  generate_messages(
    DEPENDENCIES
    std_msgs
-   #actionlib_msgs
+   actionlib_msgs
  )
 
 ################################################
@@ -132,8 +134,6 @@ include_directories(
  add_executable(nodo_receptor src/nodo_receptor.cpp)
  add_executable(nodo_servidor src/nodo_servidor.cpp)
  add_Executable(nodo_cliente src/nodo_cliente.cpp)
-# add_executable(nodo_servidor src/nodo_servidor.cpp)
-# add_executable(nodo_cliente src/nodo_cliente.cpp)
 # add_executable(nodo_actionLib_cliente src/nodo_actionLib_client.cpp)
 # add_executable(nodo_actionLib_servidor src/nodo_actionLib_server.cpp)
 # add_executable(nodo_escribe_SP src/nodo_escribe_SP.cpp)
@@ -181,12 +181,7 @@ include_directories(
  target_link_libraries (nodo_cliente
   ${catkin_LIBRARIES}
  )
-# target_link_libraries (nodo_servidor
-#  ${catkin_LIBRARIES}
-# )
-# target_link_libraries (nodo_cliente
-#  ${catkin_LIBRARIES}
-# )
+
 # target_link_libraries (nodo_actionLib_cliente
 #  ${catkin_LIBRARIES}
 # )
