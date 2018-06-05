@@ -59,8 +59,8 @@ include_directories(
  add_Executable(nodo_cliente src/nodo_cliente.cpp)
  add_executable(nodo_actionLib_cliente src/nodo_actionLib_cliente.cpp)
  add_executable(nodo_actionLib_servidor src/nodo_actionLib_servidor.cpp)
-# add_executable(nodo_escribe_SP src/nodo_escribe_SP.cpp)
-# add_executable(nodo_leer_SP src/nodo_leer_SP.cpp)
+ add_executable(nodo_escribe_SP src/nodo_escribe_SP.cpp)
+ add_executable(nodo_leer_SP src/nodo_leer_SP.cpp)
 
 
 
@@ -83,12 +83,12 @@ add_dependencies(nodo_actionLib_cliente
 add_dependencies(nodo_actionLib_servidor
           beginner_tutorials_generate_messages_cpp
           ${catkin_EXPORTED_TARGETS})
-#add_dependencies(nodo_escribe_SP
-#          beginner_tutorials_generate_messages_cpp
-#          ${catkin_EXPORTED_TARGETS})
-#add_dependencies(nodo_leer_SP
-#          beginner_tutorials_generate_messages_cpp
-#          ${catkin_EXPORTED_TARGETS})
+add_dependencies(nodo_escribe_SP
+          beginner_tutorials_generate_messages_cpp
+          ${catkin_EXPORTED_TARGETS})
+add_dependencies(nodo_leer_SP
+          beginner_tutorials_generate_messages_cpp
+          ${catkin_EXPORTED_TARGETS})
 
 
 ## LIBRARIES
@@ -111,10 +111,10 @@ add_dependencies(nodo_actionLib_servidor
   ${catkin_LIBRARIES}
  )
 
-# target_link_libraries (nodo_leer_SP
-#  ${catkin_LIBRARIES}
-# )
-# target_link_libraries (nodo_escribe_SP
-#  ${catkin_LIBRARIES}
-# )
+ target_link_libraries (nodo_leer_SP
+  ${catkin_LIBRARIES}
+ )
+ target_link_libraries (nodo_escribe_SP
+  ${catkin_LIBRARIES}
+ )
 

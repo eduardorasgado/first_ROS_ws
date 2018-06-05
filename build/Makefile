@@ -283,6 +283,19 @@ gtest_main/fast:
 .PHONY : gtest_main/fast
 
 #=============================================================================
+# Target rules for targets named nodo_escribe_SP
+
+# Build rule for target.
+nodo_escribe_SP: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 nodo_escribe_SP
+.PHONY : nodo_escribe_SP
+
+# fast build rule for target.
+nodo_escribe_SP/fast:
+	$(MAKE) -f beginner_tutorials/CMakeFiles/nodo_escribe_SP.dir/build.make beginner_tutorials/CMakeFiles/nodo_escribe_SP.dir/build
+.PHONY : nodo_escribe_SP/fast
+
+#=============================================================================
 # Target rules for targets named nodo_actionLib_servidor
 
 # Build rule for target.
@@ -476,6 +489,19 @@ rosgraph_msgs_generate_messages_py: cmake_check_build_system
 rosgraph_msgs_generate_messages_py/fast:
 	$(MAKE) -f beginner_tutorials/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make beginner_tutorials/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
 .PHONY : rosgraph_msgs_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named nodo_leer_SP
+
+# Build rule for target.
+nodo_leer_SP: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 nodo_leer_SP
+.PHONY : nodo_leer_SP
+
+# fast build rule for target.
+nodo_leer_SP/fast:
+	$(MAKE) -f beginner_tutorials/CMakeFiles/nodo_leer_SP.dir/build.make beginner_tutorials/CMakeFiles/nodo_leer_SP.dir/build
+.PHONY : nodo_leer_SP/fast
 
 #=============================================================================
 # Target rules for targets named nodo_receptor
@@ -967,6 +993,7 @@ help:
 	@echo "... gmock_main"
 	@echo "... gtest"
 	@echo "... gtest_main"
+	@echo "... nodo_escribe_SP"
 	@echo "... nodo_actionLib_servidor"
 	@echo "... nodo_actionLib_cliente"
 	@echo "... nodo_cliente"
@@ -982,6 +1009,7 @@ help:
 	@echo "... roscpp_generate_messages_nodejs"
 	@echo "... rosgraph_msgs_generate_messages_lisp"
 	@echo "... rosgraph_msgs_generate_messages_py"
+	@echo "... nodo_leer_SP"
 	@echo "... nodo_receptor"
 	@echo "... roscpp_generate_messages_eus"
 	@echo "... actionlib_generate_messages_lisp"

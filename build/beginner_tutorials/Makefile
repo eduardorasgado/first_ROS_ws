@@ -166,6 +166,21 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+beginner_tutorials/CMakeFiles/nodo_escribe_SP.dir/rule:
+	cd /home/canix/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 beginner_tutorials/CMakeFiles/nodo_escribe_SP.dir/rule
+.PHONY : beginner_tutorials/CMakeFiles/nodo_escribe_SP.dir/rule
+
+# Convenience name for target.
+nodo_escribe_SP: beginner_tutorials/CMakeFiles/nodo_escribe_SP.dir/rule
+
+.PHONY : nodo_escribe_SP
+
+# fast build rule for target.
+nodo_escribe_SP/fast:
+	cd /home/canix/catkin_ws/build && $(MAKE) -f beginner_tutorials/CMakeFiles/nodo_escribe_SP.dir/build.make beginner_tutorials/CMakeFiles/nodo_escribe_SP.dir/build
+.PHONY : nodo_escribe_SP/fast
+
+# Convenience name for target.
 beginner_tutorials/CMakeFiles/nodo_actionLib_servidor.dir/rule:
 	cd /home/canix/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 beginner_tutorials/CMakeFiles/nodo_actionLib_servidor.dir/rule
 .PHONY : beginner_tutorials/CMakeFiles/nodo_actionLib_servidor.dir/rule
@@ -389,6 +404,21 @@ rosgraph_msgs_generate_messages_py: beginner_tutorials/CMakeFiles/rosgraph_msgs_
 rosgraph_msgs_generate_messages_py/fast:
 	cd /home/canix/catkin_ws/build && $(MAKE) -f beginner_tutorials/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make beginner_tutorials/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
 .PHONY : rosgraph_msgs_generate_messages_py/fast
+
+# Convenience name for target.
+beginner_tutorials/CMakeFiles/nodo_leer_SP.dir/rule:
+	cd /home/canix/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 beginner_tutorials/CMakeFiles/nodo_leer_SP.dir/rule
+.PHONY : beginner_tutorials/CMakeFiles/nodo_leer_SP.dir/rule
+
+# Convenience name for target.
+nodo_leer_SP: beginner_tutorials/CMakeFiles/nodo_leer_SP.dir/rule
+
+.PHONY : nodo_leer_SP
+
+# fast build rule for target.
+nodo_leer_SP/fast:
+	cd /home/canix/catkin_ws/build && $(MAKE) -f beginner_tutorials/CMakeFiles/nodo_leer_SP.dir/build.make beginner_tutorials/CMakeFiles/nodo_leer_SP.dir/build
+.PHONY : nodo_leer_SP/fast
 
 # Convenience name for target.
 beginner_tutorials/CMakeFiles/nodo_receptor.dir/rule:
@@ -1038,6 +1068,60 @@ src/nodo_emisor.cpp.s:
 	cd /home/canix/catkin_ws/build && $(MAKE) -f beginner_tutorials/CMakeFiles/nodo_emisor.dir/build.make beginner_tutorials/CMakeFiles/nodo_emisor.dir/src/nodo_emisor.cpp.s
 .PHONY : src/nodo_emisor.cpp.s
 
+src/nodo_escribe_SP.o: src/nodo_escribe_SP.cpp.o
+
+.PHONY : src/nodo_escribe_SP.o
+
+# target to build an object file
+src/nodo_escribe_SP.cpp.o:
+	cd /home/canix/catkin_ws/build && $(MAKE) -f beginner_tutorials/CMakeFiles/nodo_escribe_SP.dir/build.make beginner_tutorials/CMakeFiles/nodo_escribe_SP.dir/src/nodo_escribe_SP.cpp.o
+.PHONY : src/nodo_escribe_SP.cpp.o
+
+src/nodo_escribe_SP.i: src/nodo_escribe_SP.cpp.i
+
+.PHONY : src/nodo_escribe_SP.i
+
+# target to preprocess a source file
+src/nodo_escribe_SP.cpp.i:
+	cd /home/canix/catkin_ws/build && $(MAKE) -f beginner_tutorials/CMakeFiles/nodo_escribe_SP.dir/build.make beginner_tutorials/CMakeFiles/nodo_escribe_SP.dir/src/nodo_escribe_SP.cpp.i
+.PHONY : src/nodo_escribe_SP.cpp.i
+
+src/nodo_escribe_SP.s: src/nodo_escribe_SP.cpp.s
+
+.PHONY : src/nodo_escribe_SP.s
+
+# target to generate assembly for a file
+src/nodo_escribe_SP.cpp.s:
+	cd /home/canix/catkin_ws/build && $(MAKE) -f beginner_tutorials/CMakeFiles/nodo_escribe_SP.dir/build.make beginner_tutorials/CMakeFiles/nodo_escribe_SP.dir/src/nodo_escribe_SP.cpp.s
+.PHONY : src/nodo_escribe_SP.cpp.s
+
+src/nodo_leer_SP.o: src/nodo_leer_SP.cpp.o
+
+.PHONY : src/nodo_leer_SP.o
+
+# target to build an object file
+src/nodo_leer_SP.cpp.o:
+	cd /home/canix/catkin_ws/build && $(MAKE) -f beginner_tutorials/CMakeFiles/nodo_leer_SP.dir/build.make beginner_tutorials/CMakeFiles/nodo_leer_SP.dir/src/nodo_leer_SP.cpp.o
+.PHONY : src/nodo_leer_SP.cpp.o
+
+src/nodo_leer_SP.i: src/nodo_leer_SP.cpp.i
+
+.PHONY : src/nodo_leer_SP.i
+
+# target to preprocess a source file
+src/nodo_leer_SP.cpp.i:
+	cd /home/canix/catkin_ws/build && $(MAKE) -f beginner_tutorials/CMakeFiles/nodo_leer_SP.dir/build.make beginner_tutorials/CMakeFiles/nodo_leer_SP.dir/src/nodo_leer_SP.cpp.i
+.PHONY : src/nodo_leer_SP.cpp.i
+
+src/nodo_leer_SP.s: src/nodo_leer_SP.cpp.s
+
+.PHONY : src/nodo_leer_SP.s
+
+# target to generate assembly for a file
+src/nodo_leer_SP.cpp.s:
+	cd /home/canix/catkin_ws/build && $(MAKE) -f beginner_tutorials/CMakeFiles/nodo_leer_SP.dir/build.make beginner_tutorials/CMakeFiles/nodo_leer_SP.dir/src/nodo_leer_SP.cpp.s
+.PHONY : src/nodo_leer_SP.cpp.s
+
 src/nodo_receptor.o: src/nodo_receptor.cpp.o
 
 .PHONY : src/nodo_receptor.o
@@ -1101,6 +1185,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... test"
 	@echo "... install/strip"
+	@echo "... nodo_escribe_SP"
 	@echo "... nodo_actionLib_servidor"
 	@echo "... nodo_actionLib_cliente"
 	@echo "... nodo_cliente"
@@ -1117,6 +1202,7 @@ help:
 	@echo "... rosgraph_msgs_generate_messages_lisp"
 	@echo "... rosgraph_msgs_generate_messages_py"
 	@echo "... list_install_components"
+	@echo "... nodo_leer_SP"
 	@echo "... nodo_receptor"
 	@echo "... roscpp_generate_messages_eus"
 	@echo "... actionlib_generate_messages_lisp"
@@ -1168,6 +1254,12 @@ help:
 	@echo "... src/nodo_emisor.o"
 	@echo "... src/nodo_emisor.i"
 	@echo "... src/nodo_emisor.s"
+	@echo "... src/nodo_escribe_SP.o"
+	@echo "... src/nodo_escribe_SP.i"
+	@echo "... src/nodo_escribe_SP.s"
+	@echo "... src/nodo_leer_SP.o"
+	@echo "... src/nodo_leer_SP.i"
+	@echo "... src/nodo_leer_SP.s"
 	@echo "... src/nodo_receptor.o"
 	@echo "... src/nodo_receptor.i"
 	@echo "... src/nodo_receptor.s"

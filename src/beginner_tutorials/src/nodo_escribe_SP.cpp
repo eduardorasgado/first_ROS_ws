@@ -12,5 +12,5 @@ int main(int argc, char **argv){
 
 	//para que no finalice el proceso
 	ros::waitForShutdown();
-	return0;
+	return 0;
 }

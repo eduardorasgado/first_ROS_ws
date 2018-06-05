@@ -6,9 +6,10 @@ int main(int argc, char **argv){
 	ros::init(argc, argv, "nodo_leer_SP");
 	ros::NodeHandle n;
 
-	std::String parametro;
+	std::string parametro;
 	n.getParam("parametroTest", parametro);
 
+	//pasar de char* a string
 	ROS_INFO("Parametro leido: %s", parametro.c_str());
 
 	//para que no finalice el proceso
