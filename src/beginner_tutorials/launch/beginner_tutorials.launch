@@ -5,4 +5,6 @@
 	<node pkg="beginner_tutorials" name="nodo_cliente" type="nodo_cliente" respawn="true" output="screen"/>
 	<node pkg="beginner_tutorials" name="nodo_actionLib_servidor" type="nodo_actionLib_servidor" output="screen" respawn="true"/>
 	<node pkg="beginner_tutorials" name="nodo_actionLib_cliente" type="nodo_actionLib_cliente" output="screen" respawn="true"/>
+	<node pkg="beginner_tutorials" name="nodo_escribe_SP" type="nodo_escribe_SP" output="screen" respawn="true"/>
+	<node pkg="beginner_tutorials" name="nodo_leer_SP" type="nodo_leer_SP" output="screen" respawn="true"/>
 </launch>
