@@ -3,7 +3,7 @@
 
 int main(int argc, char **argv){
 	//registrar el nodo
-	ros::init(argc, argv, "nodo_Escribe_SP");
+	ros::init(argc, argv, "nodo_escribe_SP");
 	ros::NodeHandle n;
 
 	//el parametro a enviar se llamara parametroTest
