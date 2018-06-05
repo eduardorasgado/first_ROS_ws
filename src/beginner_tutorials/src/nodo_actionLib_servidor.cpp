@@ -1,26 +1,27 @@
 #include "ros/ros.h"
 #include <beginner_tutorials/TestAction.h>
-#include <actionlib/server/simple_Action_server.h>
+#include <actionlib/server/simple_action_server.h>
 
 //para simplificar la biblioteca, en lugar
 //de escribir todo esto, simplemente escribimos Server
-typedef actionlib::SimpleActionServer<beginner_tutorials::TestAction>Server;
+typedef actionlib::SimpleActionServer<beginner_tutorials::TestAction> Server;
 
 /**La funcion del actionlib server**/
-void actionLib_callback(const beginner_tutorials::TestGoalConstPtr& goal, Server* as){
+void actionLib_callback(const beginner_tutorials::TestGoalConstPtr& goal, Server* as)
+{
 	as->setSucceeded();
 	ROS_INFO("ActionLib goal recibido");
 
 	//emitimos feedback
 	beginner_tutorials::TestFeedback feedback;
-	feedback.infoFeedback = 0;
+	feedback.feedback = 0;
 
 	as->publishFeedback(feedback);
 	ROS_INFO("ActionLib feedback emitido");
 }
 
 /**Funcion principal**/
-int main (int argc, chat **argv){
+int main (int argc, char **argv){
 	//registramos el nombre del nodo
 	ros::init(argc, argv, "nodo_actionLib_servidor");
 	ros::NodeHandle n;
