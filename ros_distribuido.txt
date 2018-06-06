@@ -1,0 +1,16 @@
+Para poder distribuir distintos nodos de ros en varias computadoras es necesario
+tener una computadora central, donde todas las demas van a apuntar.
+
+En este computador se correrá roscore.
+Este computador funcionará de manera normal
+
+Los demas computadores deberán de tener en sus variables de
+entorno(en caso de persistencia) incluido en ~/.bashrc:
+
+Nodo maestro
+export ROS_MASTER_URI=http://localhost:11311/
+
+Los demas nodos(ejemplo):
+export ROS_MASTER_URO=http://192.168.0.11:11311/
+
+que la ip será la IP del nodo maestro
