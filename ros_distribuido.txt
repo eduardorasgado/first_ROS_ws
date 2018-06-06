@@ -14,3 +14,9 @@ Los demas nodos(ejemplo):
 export ROS_MASTER_URO=http://192.168.0.11:11311/
 
 que la ip será la IP del nodo maestro
+
+Para ver el nodo maestro ponemos en terminal:
+echo $ROS_MASTER_URI
+
+Una vez cambiada nuestra ip en los nodos perifericos:
+source .bashrc
