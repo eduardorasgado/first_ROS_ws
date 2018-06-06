@@ -8,11 +8,11 @@ project(beginner_tutorials)
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
 ## is used, also find other catkin packages
 find_package(catkin REQUIRED COMPONENTS
-  roscpp
-  rospy
-  std_msgs
-  message_generation
-  actionlib
+  roscpp #manejador de ficheros de c++
+  rospy #manejador de ficheros de python
+  std_msgs #para usar los mensajes predefinidos que vienen en ROS
+  message_generation #usado para compilar los mensajes de ros
+  actionlib #estos dos para compilar los mensajes de actionlib
   actionlib_msgs
 
 )
@@ -36,11 +36,14 @@ find_package(catkin REQUIRED COMPONENTS
     Test.action
  )
 
+#SERVIDOR DE PARAMETROS
+#En este caso no es necesario emitir ningun tipo de referencia
+
 ## Generate added messages and services with any dependencies listed here
  generate_messages(
    DEPENDENCIES
-   std_msgs
-   actionlib_msgs
+   std_msgs #indicar que se generen los mensajes
+   actionlib_msgs #indicar que se generen los action libs
  )
 
 ###########
@@ -53,6 +56,7 @@ include_directories(
 
 
 ## EXECUTABLES
+##Nombre del ejecutable y el codigo o fichero fuente
  add_executable(nodo_emisor src/nodo_emisor.cpp)
  add_executable(nodo_receptor src/nodo_receptor.cpp)
  add_executable(nodo_servidor src/nodo_servidor.cpp)
@@ -65,6 +69,9 @@ include_directories(
 
 
 # DEPENDENCIES
+#para cada ejecutable agregar los messages_cpp
+#si no lo agregamos CMake va a indicar error de que no encuentra
+#los .h
 add_dependencies(nodo_emisor
           beginner_tutorials_generate_messages_cpp
           ${catkin_EXPORTED_TARGETS})
